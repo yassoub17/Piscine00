@@ -1,0 +1,364 @@
+* {
+margin: 0%;
+padding: 0%;
+}
+
+/*header*/
+
+.header{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 5vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border: 2px solid #b1b1b1;
+}
+
+.logo_elle{
+    display:flex;
+    width: 193px;
+    height: 68px;
+}
+
+.logo_lien{
+    width: 42px;
+    height: 42px;
+    margin-left: 2vw;
+    margin-right: 0vw;
+}
+.se_connecter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'OSWALD';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.3em;
+    
+    color:black
+}
+
+#rouge{
+    color:black
+}
+
+/* header */
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding: right 10vw; ;
+    border-bottom: 2px solid black;
+}
+
+
+
+.menu{
+    width: 42px;
+}
+
+.theme{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+
+    font-family: 'oswald';
+    font-style : normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.3em;
+
+    color:blanchedalmond
+}
+
+#rouge{
+    color:black
+}
+
+/*navbar*/
+
+/*main*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.photo_kim{
+    background-image: url(./images/kim-kardashian-los-angeles-premiere-of-the-kardashians-2022-hulu-press.jpg);
+   height: 882px; 
+   min-width: 46%;
+   max-width: 50vw;
+   margin-left: 10px;
+   background-position: center;
+   background-size: cover;
+   box-sizing : border-box;
+   display : flex;
+   flex-direction : column;
+   justify-content : space-between;
+}
+
+.tagbar{
+display: flex;
+justify-content: space-between;
+padding-left: 10px;
+padding-right: 10px;
+background: black;
+
+
+}
+
+.texte_tagbar{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    font-family: 'OSWALD';
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+
+
+    color:white
+
+
+}
+
+.rectangle{
+display : flex;
+align-items: center;
+justify-content: center;
+padding-bottom: 70px;
+padding-top : 80px;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.02)0% rgba(0, 0, 0, 0.91) 46.89%, #000000 100%);
+
+
+
+
+}
+
+.kim_fashion_week{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    font-family: 'OSWALD';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.3em;
+    color:white
+
+}
+
+.sec_droite{
+display: flex;
+flex-direction: column;
+margin-left: 25px;
+min-width: 49%;
+max-width: 50vw;
+
+}
+
+.sephora_ad{
+display: flex;
+flex-direction: column;
+margin-left: 25px;
+min-width: 49%;
+max-width: 50vw;
+
+}
+
+.titre{
+font-family: 'OSWALD';
+font-style: normal;
+font-weight: 600;
+font: size 25px;
+line-height: 26px;
+margin-top: 10px;
+color:#000000
+
+}
+
+.sous_titre{
+font-family: 'oswald';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 33px;
+margin-top: 20px;
+color:#000000
+
+}
+
+.paragraphe{
+font-family: 'Bellefair';
+font-style: normal;
+font-weight:400;
+font-size: 20px;
+line-height: 23px;
+margin-top: 10px;
+color:#000000
+
+}
+
+
+.wrapper{
+min-height: 50%;
+margin-top: 10px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 5px;
+grid-template-rows: 50% 1fr 1fr;
+
+}
+
+.the_only_one_ad{
+background-image: url(./images/the_only_one_ad.png);
+background-position: center;
+background-size: cover;
+box-sizing: border-box;
+grid-column: 1;
+grid-row: 1 / 4;
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+justify-content: flex-end;
+
+}
+
+.milano_fashion_week{
+background-image: url(./images/b63ba849-city-53596-163d1a05b9e.jpg);
+background-position: center;
+background-size: cover;
+box-sizing: border-box;
+grid-column: 2;
+grid-row: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+
+.tendinite{
+background-image: url(./images/tendinite-definition.jpg);
+background-position: center;
+background-size: cover;
+box-sizing: border-box;
+grid-column: 3;
+grid-row: 1;
+display: flex;
+align-items: center;
+text-align: right;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 47px;
+display: flex;
+align-items: center;
+text-align: right;
+color:white;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.famille_kardashian{
+background-image: url(./images/the-kardashians-hulu.jpg);
+background-position: -24px;
+background-size: cover;
+box-sizing: border-box;
+grid-column: 2 / 4;
+grid-row: 2;
+display: flex;
+justify-content: center;
+
+}
+
+.sephora{
+background-image: url(./images/sephora-logo.jpg);
+background-position-y: -3px;
+background-size: cover;
+box-sizing: border-box;
+grid-column: 2 / 4;
+grid-row: 3;
+
+}
+
+.texte_shop_now{
+padding-bottom: 20px;
+padding-right: 10px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 104.2%;
+color:white;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.texte-tendinite{
+    display: flex;
+    align-items: center;
+
+}
+
+.texte_kardashian{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 104.2%;
+    color:white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.texte_milano{
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 104.2%;
+    color:white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@font-face{
+    font-family: Oswald;
+    src: url(./oswald/Oswald-regular.ttf);
+
+}
+
+@font-face{
+    font-family: Bellefair;
+    src: url(./Bellefair/Bellefair-Regular.ttf);
+
+}
